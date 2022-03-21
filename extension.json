@@ -1,0 +1,16 @@
+{
+  "identifier": "izquiratops.angularsnippets",
+  "name": "Angular Snippets",
+  "organization": "izquiratops",
+  "description": "Angular 13 completion plugin on .ts and .html files.",
+  "version": "1.0",
+  "repository": "https://github.com/izquiratops/nova-angular-snippets",
+  "homepage": "https://github.com/izquiratops/nova-angular-snippets",
+  "bugs": "https://github.com/izquiratops/nova-angular-snippets/issues",
+  "categories": ["completions"],
+  "main": "main.js",
+  "activationEvents": ["onLanguage:typescript", "onLanguage:html"],
+  "entitlements": {
+    "clipboard": true
+  }
+}
